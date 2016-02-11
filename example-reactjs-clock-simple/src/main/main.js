@@ -7,7 +7,6 @@ const dialog = electron.dialog;
 const BrowserWindow = electron.BrowserWindow;
 
 let mainWindow;
-let mainMenu;
 
 app.on('ready', () => {
 	// width: 800, height: 600 are the default values if opmitted during creation
