@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+//    @include no-selection();
+}
+
+html {
+    font-family: 'Lucida Grande', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.clock {
+    font-size: 30px;
+}
+
+.clock {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.clock-details {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.clock-tzinfo {
+    justify-content: flex-start;
+}
+
+.clock-time {
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+    font-size: 40px;
+}
