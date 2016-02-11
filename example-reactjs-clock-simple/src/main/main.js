@@ -5,8 +5,6 @@ const app = electron.app;
 const Menu = electron.Menu;
 const dialog = electron.dialog;
 const BrowserWindow = electron.BrowserWindow;
-const ipcMain = electron.ipcMain;
-import CrashReporter from 'crash-reporter';
 
 let mainWindow;
 let mainMenu;
